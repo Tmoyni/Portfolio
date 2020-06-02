@@ -29,26 +29,14 @@ html {
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .navigation {
+  height: 6rem;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 
   padding: 1rem;
   background-color: black;
-
-
 }
 
 .navigation__logo {
@@ -79,6 +67,27 @@ html {
   font-weight: bold;
 }
 
+.intro {
+  background-color: #282c34;
+  min-height: calc(100vh - 6rem);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
 
+.intro__image {
+  width: 20rem;  
+  height: auto;
+  margin: 3rem;
+}
+
+.intro__details {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: lighter;
+  margin: 2rem;
+}
 
 
