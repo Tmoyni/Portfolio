@@ -17,7 +17,7 @@ function App() {
         <div className="intro__details">Triona Moynihan is a New York City based full-stack web developer with experience in Ruby on Rails and JavaScript-based programming with an extensive background in visual design and passion for digital experiences.</div>
       </header>
       <div className="section__headline">Projects</div>
-      {/* <div className="projects">
+      <div className="projects">
         <div className="project">
           <img src="#" alt="project image" className="project__img"/>
           <div className="project__name">Project 1</div>
@@ -39,7 +39,7 @@ function App() {
           <div className="project__tech">HTML CSS React SASS</div>
           <button className="btn">More</button>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
