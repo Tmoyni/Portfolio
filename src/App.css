@@ -57,8 +57,9 @@ html {
 .intro {
   grid-column: full-start / full-end;
   background-color: #282c34;
-  min-height: calc(100vh - 6rem);
+  min-height: calc(80vh - 6rem);
   color: white;
+  padding-top: 6rem;
 
   display: grid;
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
@@ -80,47 +81,60 @@ html {
   grid-column: full-start / full-end;
   text-align: center;
   font-size: 4em;
-  margin: 3rem;
+  margin-top: 3rem;
 }
 
 .projects {
   grid-column: center-start / center-end;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  grid-gap: 3rem;} 
+  grid-gap: 3rem; 
+  padding: 5rem 0;
+}
 
 .project {
-  padding: 1.5rem;
-  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px lightgray;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .project__img {
   background-color: aquamarine;
   width: 100%;
-  height: auto;
+  height: 15rem;
 }
 
 .project__name {
   font-size: 1.5rem;
   text-transform: uppercase;
-  margin: 1rem 0;
+  margin: 1rem;
+  text-align: center;
 }
 
 .project__details {
   text-align: left;
+  margin: 1rem 1.5rem;
 }
 
 .project__tech {
-  margin-top: 1rem;
+  margin: 1rem;
   font-weight: bold;
   text-align: center;
+  color: turquoise;
 }
 
 .btn {
   border: none;
+  border-radius: 5px;
   height: 2.5rem;
   width: 10rem;
-  margin: 2rem 0;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  align-self: center;
 }
 
 .btn:hover {

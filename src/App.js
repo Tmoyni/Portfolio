@@ -41,14 +41,14 @@ function App() {
         </div>
         <div className="project">
           <img src="#" alt="project image" className="project__img"/>
-          <div className="project__name">Project 3</div>
+          <div className="project__name">Project 4</div>
           <div className="project__details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
           <div className="project__tech">HTML CSS React SASS</div>
           <button className="btn">More</button>
         </div>
         <div className="project">
           <img src="#" alt="project image" className="project__img"/>
-          <div className="project__name">Project 3</div>
+          <div className="project__name">Project 5</div>
           <div className="project__details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
           <div className="project__tech">HTML CSS React SASS</div>
           <button className="btn">More</button>
