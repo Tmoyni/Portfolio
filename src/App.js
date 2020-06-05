@@ -19,8 +19,8 @@ function App() {
       <div className="section__headline">Projects</div>
       <div className="projects">
         <div className="project">
-          <img src="#" alt="project image" className="project__img"/>
-          <div className="project__name">Project 1</div>
+          <img src="https://repository-images.githubusercontent.com/217157261/28158a80-f5ef-11e9-9291-0e16af8a4853" alt="project image" className="project__img"/>
+          <div className="project__name">Natours</div>
           <div className="project__details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
           <div className="project__tech">HTML CSS React SASS</div>
           <button className="btn">More</button>
