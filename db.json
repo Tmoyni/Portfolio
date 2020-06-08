@@ -2,21 +2,21 @@
     "projects": [
         { 
             "id": 1, 
-            "image": "",
+            "image": "https://harryle.com/src/img/8-natours1.jpg",
             "name": "Natours", 
             "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "tech": "HTML CSS React SASS"
         },
         { 
             "id": 2, 
-            "image": "",
+            "image": "https://harryle.com/src/img/4-trillo1.jpg",
             "name": "Trillo", 
             "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "tech": "HTML CSS React SASS"
         },
         { 
             "id": 3, 
-            "image": "",
+            "image": "https://harryle.com/src/img/5-nexter1.jpg",
             "name": "Nexter", 
             "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "tech": "HTML CSS React SASS"
