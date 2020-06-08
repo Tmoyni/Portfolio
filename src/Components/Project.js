@@ -6,11 +6,11 @@ class Project extends React.Component {
         return (
             <div className="project">
                 <figure className="project__shape">
-                <img src="https://harryle.com/src/img/8-natours1.jpg" alt="project image" className="project__img"/>
+                <img src="https://harryle.com/src/img/8-natours1.jpg" alt="project 1" className="project__img"/>
                 </figure>          
-                <div className="project__name">Natours</div>
-                <div className="project__details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                <div className="project__tech">HTML CSS React SASS</div>
+                <div className="project__name">{this.props.project.name}</div>
+                <div className="project__details">{this.props.project.details}</div>
+                <div className="project__tech">{this.props.project.tech}</div>
                 <button className="btn">View</button>
           </div>
         );
