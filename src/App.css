@@ -126,13 +126,14 @@ html {
 }
 
 .project__img {
-  height: 15rem;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
   transition: all .5s;
-
 }
 
 .project__img:hover {
-  height: 17rem;
+  transform: scale(1.2)
 }
 
 .project__name {
