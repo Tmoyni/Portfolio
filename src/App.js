@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ProjectContainer from './Containers/ProjectContainer'
 
 function App() {
   return (
@@ -19,64 +20,20 @@ function App() {
         <div className="intro__details">Triona Moynihan is a New York City based full-stack web developer with experience in Ruby on Rails and JavaScript-based programming with an extensive background in visual design and passion for digital experiences.</div>
       </header>
       <div className="section__headline">Projects</div>
-      <div className="projects">
-        <div className="project">
-          <figure className="project__shape">
-            <img src="https://harryle.com/src/img/8-natours1.jpg" alt="project image" className="project__img"/>
-          </figure>          
-          <div className="project__name">Natours</div>
-          <div className="project__details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-          <div className="project__tech">HTML CSS React SASS</div>
-          <button className="btn">View</button>
-        </div>
-        <div className="project">
-          <figure className="project__shape">
-            <img src="https://harryle.com/src/img/8-natours1.jpg" alt="project image" className="project__img"/>
-          </figure>
-          <div className="project__name">Project 2</div>
-          <div className="project__details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-          <div className="project__tech">HTML CSS React SASS</div>
-          <button className="btn">View</button>
-        </div>
-        <div className="project">
-          <figure className="project__shape">
-            <img src="https://harryle.com/src/img/8-natours1.jpg" alt="project image" className="project__img"/>
-          </figure>
-          <div className="project__name">Project 3</div>
-          <div className="project__details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-          <div className="project__tech">HTML CSS React SASS</div>
-          <button className="btn">View</button>
-        </div>
-        <div className="project">
-          <figure className="project__shape">
-            <img src="https://harryle.com/src/img/8-natours1.jpg" alt="project image" className="project__img"/>
-          </figure>
-          <div className="project__name">Project 4</div>
-          <div className="project__details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-          <div className="project__tech">HTML CSS React SASS</div>
-          <button className="btn">View</button>
-        </div>
-        <div className="project">
-          <figure className="project__shape">
-            <img src="https://harryle.com/src/img/8-natours1.jpg" alt="project image" className="project__img"/>
-          </figure>
-          <div className="project__name">Project 5</div>
-          <div className="project__details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-          <div className="project__tech">HTML CSS React SASS</div>
-          <button className="btn">View</button>
-        </div>
-      </div>
+      <ProjectContainer />
       <div className="section__headline">Contact</div>
       <div className="contact">
-        <form>
-          <label>
-            Name:
-            <input type="text" name="name" />
-          </label>
-          <input type="submit" value="Submit" />
-        </form>
+        <div className="contact__form">
+          <form action="#" class="form">
+            <h2>Get in touch!</h2>
+            <label>
+              Name:
+              <input type="text" name="name" />
+            </label>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
       </div>
-
     </div>
   );
 }
