@@ -6,7 +6,7 @@ class Project extends React.Component {
         return (
             <div className="project">
                 <figure className="project__shape">
-                <img src="https://harryle.com/src/img/8-natours1.jpg" alt="project 1" className="project__img"/>
+                <img src={this.props.project.image} alt="project 1" className="project__img"/>
                 </figure>          
                 <div className="project__name">{this.props.project.name}</div>
                 <div className="project__details">{this.props.project.details}</div>

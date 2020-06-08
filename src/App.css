@@ -121,6 +121,8 @@ html {
 
 .project__img {
   height: 15rem;
+  transition: all .5s;
+
 }
 
 .project__img:hover {
