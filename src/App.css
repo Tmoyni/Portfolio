@@ -75,6 +75,12 @@ html {
 
 .intro__image {
   width: 20rem;
+  transition: all .5s;
+}
+
+.intro__image:hover {
+  width: 22rem;
+  transform: translate(-5%, 0%);
 }
 
 
