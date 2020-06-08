@@ -1,0 +1,25 @@
+{
+    "projects": [
+        { 
+            "id": 1, 
+            "image": "",
+            "name": "Natours", 
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "tech": "HTML CSS React SASS"
+        },
+        { 
+            "id": 2, 
+            "image": "",
+            "name": "Trillo", 
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "tech": "HTML CSS React SASS"
+        },
+        { 
+            "id": 3, 
+            "image": "",
+            "name": "Nexter", 
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "tech": "HTML CSS React SASS"
+        }
+    ]
+}
