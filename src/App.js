@@ -22,7 +22,7 @@ function App() {
       </header>
       <div className="section__headline">Projects</div>
       <ProjectContainer />
-      <div className="section__headline">Contact</div>
+      <div className="section__headline bg--green">Contact</div>
       <ContactContainer/>
     </div>
   );
