@@ -45,6 +45,7 @@ class Contact extends React.Component {
         console.log(this.state)
         return (
             <div className="contact__form">
+
                 <form onSubmit={(e) => this.handleSubmit(e)}>
                     <label className="contact__label" for="firstName">First Name:</label>
                     <input type="text" className="contact__input" onChange={(e) => this.handleChange(e)} label="firstName" placeholder="First Name" name="firstName" id="firstName" value={this.state.firstName} required/>

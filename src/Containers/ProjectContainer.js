@@ -18,9 +18,9 @@ class ProjectContainer extends React.Component {
     render() {
         return (
             <div className="projects">  
-            {this.state.projects.map( project => (
-                <Project key={project.id} project={project}/>
-            ))}
+                {this.state.projects.map( project => (
+                    <Project key={project.id} project={project}/>
+                ))}
             </div>
         );
     }
