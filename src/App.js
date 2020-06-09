@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ProjectContainer from './Containers/ProjectContainer'
+import ContactContainer from './Containers/ContactContainer';
 
 function App() {
   return (
@@ -22,18 +23,7 @@ function App() {
       <div className="section__headline">Projects</div>
       <ProjectContainer />
       <div className="section__headline">Contact</div>
-      <div className="contact">
-        <div className="contact__form">
-          <form action="#" class="form">
-            <h2>Get in touch!</h2>
-            <label>
-              Name:
-              <input type="text" name="name" />
-            </label>
-            <input type="submit" value="Submit" />
-          </form>
-        </div>
-      </div>
+      <ContactContainer/>
     </div>
   );
 }

@@ -1,25 +1,69 @@
 {
-    "projects": [
-        { 
-            "id": 1, 
-            "image": "https://harryle.com/src/img/8-natours1.jpg",
-            "name": "Natours", 
-            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "tech": "HTML CSS React SASS"
-        },
-        { 
-            "id": 2, 
-            "image": "https://harryle.com/src/img/4-trillo1.jpg",
-            "name": "Trillo", 
-            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "tech": "HTML CSS React SASS"
-        },
-        { 
-            "id": 3, 
-            "image": "https://harryle.com/src/img/5-nexter1.jpg",
-            "name": "Nexter", 
-            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "tech": "HTML CSS React SASS"
-        }
-    ]
+  "projects": [
+    {
+      "id": 1,
+      "image": "https://harryle.com/src/img/8-natours1.jpg",
+      "name": "Natours",
+      "details": "This is a project that I worked on",
+      "tech": "HTML CSS React SASS"
+    },
+    {
+      "id": 2,
+      "image": "https://harryle.com/src/img/4-trillo1.jpg",
+      "name": "Trillo",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "tech": "HTML CSS React SASS"
+    },
+    {
+      "id": 3,
+      "image": "https://harryle.com/src/img/5-nexter1.jpg",
+      "name": "Nexter",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "tech": "HTML CSS React SASS"
+    }
+  ],
+  "contacts": [
+    {
+      "firstName": "Triona",
+      "lastName": "Moynihan",
+      "email": "trmoynihan@yahoo.com",
+      "message": "kljkljkl",
+      "id": 1
+    },
+    {
+      "firstName": "Kathy",
+      "lastName": "Moynihan",
+      "email": "kathleen.moynihan@comcast.net",
+      "message": "hiya!!!! tritoni roni!",
+      "id": 2
+    },
+    {
+      "firstName": "Kathy",
+      "lastName": "Moynihan",
+      "email": "kathleen.moynihan@comcast.net",
+      "message": "hiya!!!! tritoni roni!",
+      "id": 3
+    },
+    {
+      "firstName": "Kathy",
+      "lastName": "Moyn",
+      "email": "kmoyn315@gmail.com",
+      "message": "again hiya!",
+      "id": 4
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "message": "",
+      "id": 5
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "message": "",
+      "id": 6
+    }
+  ]
 }
