@@ -185,9 +185,9 @@ h1 {
 .contact {
   grid-column: full-start / full-end;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  background-color: black;
+  background-color: turquoise;
   padding-top: 6rem;
 
   display: grid;
@@ -197,8 +197,13 @@ h1 {
 .contact__form {
   grid-column: center-start / center-end;
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: [center-start] repeat(2, [col-start] minmax(min-content, 100rem) [col-end]) [center-end];
+}
 
+.contact__group:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 .contact__input {
@@ -206,20 +211,18 @@ h1 {
   font-family: inherit;
   padding: 1.5rem 2rem;
   border-radius: 2px;
-  width: 90%;
   border: none;
-  display: block;
   transition: all .3s;
 }
 
 .contact__input:focus {
   outline: none;
-  box-shadow: 0 1rem 2rem rgba($color-black, .1);
-  border-bottom: 3px solid green
+  box-shadow: 0 1rem 2rem rgba(black, .1);
+  border-bottom: 3px solid darkturquoise
 }
 
 .contact__input:focus:invalid {
-  border-bottom: 3px solid red
+  border-bottom: 3px solid orangered
 }
 
 .contact__input::-webkit-input-placeholder {
