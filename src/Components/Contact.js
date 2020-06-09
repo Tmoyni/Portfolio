@@ -46,15 +46,25 @@ class Contact extends React.Component {
         return (
             <div className="contact__form">
                 <form onSubmit={(e) => this.handleSubmit(e)}>
-                    <label className="contact__label" for="firstName">First Name:</label>
+                    <div className="contact__group">
+                        <label className="contact__label" for="firstName">First Name:</label>
                         <input type="text" className="contact__input" onChange={(e) => this.handleChange(e)} label="firstName" placeholder="First Name" name="firstName" id="firstName" value={this.state.firstName}/>
-                    <label className="contact__label" for="lastName">Last Name:</label>
+                    </div> 
+                    <div className="contact__group">
+                        <label className="contact__label" for="lastName">Last Name:</label>
                         <input type="text" className="contact__input" onChange={(e) => this.handleChange(e)} label="lastName" placeholder="Last Name" name="lastName" id="lastName" value={this.state.lastName}/>
-                    <label className="contact__label" for="email">Email Address:</label>
+                    </div> 
+
+                    <div className="contact__group">
+                        <label className="contact__label" for="email">Email Address:</label>
                         <input type="email" className="contact__input" onChange={(e) => this.handleChange(e)} label="email" placeholder="Email Address" name="email" id="email" value={this.state.email}/>
-                    <label className="contact__label" for="message">Message:</label>
+                    </div> 
+
+                    <div className="contact__group">
+                        <label className="contact__label" for="message">Message:</label>
                         <input  className="contact__input" onChange={(e) => this.handleChange(e)} label="message" placeholder="Message" name="message" id="message" value={this.state.message}/>
-                    <input type="submit" value="Submit" />
+                    </div> 
+                    <input className="btn" type="submit" value="Submit" />
                 </form>
             </div>
         );
