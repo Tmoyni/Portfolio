@@ -12,6 +12,8 @@ class Project extends React.Component {
                 <div className="project__details">{this.props.project.details}</div>
                 <div className="project__tech">{this.props.project.tech}</div>
                 <button className="btn">View</button>
+                <button className="btn">Github</button>
+
           </div>
         );
     }
