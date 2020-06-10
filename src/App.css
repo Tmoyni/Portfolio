@@ -105,6 +105,10 @@ h1 {
   margin-bottom: 2rem;
 }
 
+.bld-color {
+  color: turquoise
+}
+
 .intro__links {
   display: flex; 
 }
