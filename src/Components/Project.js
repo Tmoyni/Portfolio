@@ -11,9 +11,8 @@ class Project extends React.Component {
                 <div className="project__name">{this.props.project.name}</div>
                 <div className="project__details">{this.props.project.details}</div>
                 <div className="project__tech">{this.props.project.tech}</div>
-                <button className="btn">View</button>
-                <button className="btn">Github</button>
-
+                <a className="project__link" href={this.props.project.url} target="_blank">View</a>
+                <a className="project__link" href={this.props.project.github} target="_blank" >Github</a>
           </div>
         );
     }
