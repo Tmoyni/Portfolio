@@ -195,6 +195,26 @@ h1 {
   border-bottom: 1px solid lightgray;
 }
 
+.project__link {
+  height: 3rem;
+  width: 70%;
+  border-radius: 5px;
+  align-self: center;
+  margin-bottom: 1rem;
+
+  background-color: rgb(228, 226, 226);
+  color: black;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 3rem; 
+}
+
+.project__link:hover {
+  background-color: turquoise;
+}
+
 .btn {
   border: none;
   border-radius: 5px;
