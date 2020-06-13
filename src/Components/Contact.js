@@ -33,13 +33,14 @@ class Contact extends React.Component {
             .then((response) => response.json())
             .then((data) => {
               console.log('Success:', data);
-            }).then(this.setState({
+            })
+            .then(this.setState({
                 firstName: "",
                 lastName: "",
                 email: "",
                 message: "",
-              }))
-      }
+            }))
+    }
     
     render() {
         console.log(this.state)
