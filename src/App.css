@@ -267,6 +267,12 @@ h1 {
   border: none;
   transition: all .3s;
 }
+
+.contact__btn {
+  align-self: center;
+  margin-top: 1rem;
+}
+
 /* 
 .contact__input:focus {
   outline: none;

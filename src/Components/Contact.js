@@ -45,9 +45,7 @@ class Contact extends React.Component {
     render() {
         console.log(this.state)
         return (
-            <div className="contact__form">
-
-                <form onSubmit={(e) => this.handleSubmit(e)}>
+                <form className="contact__form" onSubmit={(e) => this.handleSubmit(e)}>
                     <label className="contact__label" htmlFor="firstName">First Name:</label>
                     <input type="text" className="contact__input" onChange={(e) => this.handleChange(e)} label="firstName" placeholder="First Name" name="firstName" id="firstName" value={this.state.firstName} required/>
                     
@@ -60,9 +58,8 @@ class Contact extends React.Component {
                     <label className="contact__label" htmlFor="message">Message:</label>
                     <input  className="contact__input" onChange={(e) => this.handleChange(e)} label="message" placeholder="Message" name="message" id="message" value={this.state.message} required/>
 
-                    <input className="btn" type="submit" value="Submit" />
+                    <input className="btn contact__btn" type="submit" value="Submit" />
                 </form>
-            </div>
         );
     }
 }
