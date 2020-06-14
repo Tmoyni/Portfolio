@@ -24,7 +24,8 @@ function App() {
         <div className="intro__details">
           <div className="intro__about">Hi, I'm <span className="bld-color">Triona Moynihan</span> and I am a New York City based full-stack web developer and designer.</div>
           <div className="intro__links">
-            <div className="intro__button">Github</div>
+            <a className="intro__link" href="https://github.com/Tmoyni" target="_blank" >Github</a>
+            <a className="intro__link" href="https://www.linkedin.com/in/trionamoynihan/" target="_blank" >LinkedIn</a>
           </div>
         </div>
       </header>

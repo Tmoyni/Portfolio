@@ -114,10 +114,11 @@ h1 {
   display: flex; 
 }
 
-.intro__button {
+.intro__link {
   font-size: 1.5rem;
   margin-right: 1.5rem;
   color: turquoise;
+  text-decoration: none;
 }
 
 .section__headline {
@@ -267,6 +268,12 @@ h1 {
   border: none;
   transition: all .3s;
 }
+
+.contact__btn {
+  align-self: center;
+  margin-top: 1rem;
+}
+
 /* 
 .contact__input:focus {
   outline: none;
