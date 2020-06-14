@@ -17,7 +17,7 @@ html {
 .App {
   font-family: Lato;
   display: grid;
-  grid-template-rows: 6rem calc(80vh - 6rem);
+  grid-template-rows: 6rem calc(85vh - 6rem);
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 }
 
@@ -66,9 +66,10 @@ h1 {
 .intro {
   grid-column: full-start / full-end;
   background-color: #282c34;
-  min-height: calc(80vh - 6rem);
   color: white;
+  min-height: calc(85vh - 6rem);
   padding-top: 6rem;
+  align-content: center;
 
   display: grid;
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
