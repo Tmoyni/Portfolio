@@ -114,10 +114,11 @@ h1 {
   display: flex; 
 }
 
-.intro__button {
+.intro__link {
   font-size: 1.5rem;
   margin-right: 1.5rem;
   color: turquoise;
+  text-decoration: none;
 }
 
 .section__headline {
