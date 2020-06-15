@@ -26,24 +26,6 @@
       "tech": "HTML CSS React SASS",
       "url": "https://tmoyni.github.io/Nexter/",
       "github": "https://github.com/Tmoyni/Nexter"
-    },
-    {
-      "id": 4,
-      "image": "https://harryle.com/src/img/5-nexter1.jpg",
-      "name": "Nexter",
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "tech": "HTML CSS React SASS",
-      "url": "https://tmoyni.github.io/Nexter/",
-      "github": "https://github.com/Tmoyni/Nexter"
-    },
-    {
-      "id": 5,
-      "image": "https://harryle.com/src/img/5-nexter1.jpg",
-      "name": "Nexter",
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "tech": "HTML CSS React SASS",
-      "url": "https://tmoyni.github.io/Nexter/",
-      "github": "https://github.com/Tmoyni/Nexter"
     }
   ],
   "contacts": [
