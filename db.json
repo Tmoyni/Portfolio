@@ -33,16 +33,16 @@
       "name": "Post Manager",
       "details": "A React Redux web application that helps track and view projects and files for agency social media campaigns",
       "tech": "HTML, Material UI, React, Redux, Ruby on Rails API",
-      "url": "https://tmoyni.github.io/Nexter/",
+      "url": "https://youtu.be/GnKPbq-a3-Q",
       "github": "https://github.com/Tmoyni/project-manager-frontend"
     },
     {
       "id": 5,
       "image": "https://harryle.com/src/img/5-nexter1.jpg",
       "name": "Fantasy Stocks",
-      "details": "Nexter is a SASS and CSS project I completed from Jonas Schemedman's Udemy Course 'fds'",
+      "details": "Ruby on Rails multi-page application to buy and sell portfolios of stocks with fake money. Developed a Ruby on Rails backend RESTful API with ActiveRecord and Sqlite3. Implemented Bootstrap for the frontend User Interface. Calculated percent change for stocks and the amount you can sell and buy on the backend",
       "tech": "Ruby on Rails, HTML, CSS",
-      "url": "https://tmoyni.github.io/Nexter/",
+      "url": "https://www.youtube.com/watch?v=iEuzsy7q1Vo",
       "github": "https://github.com/Tmoyni/Fantasy-Stocks-1"
     }
   ],
