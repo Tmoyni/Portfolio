@@ -23,27 +23,27 @@
       "image": "https://harryle.com/src/img/5-nexter1.jpg",
       "name": "Nexter",
       "details": "Nexter is a SASS and CSS project I completed from Jonas Schemedman's Udemy Course 'fds'",
-      "tech": "HTML CSS SASS Flexbox CSS Grid",
+      "tech": "HTML, CSS, SASS, Flexbox, CSS Grid",
       "url": "https://tmoyni.github.io/Nexter/",
       "github": "https://github.com/Tmoyni/Nexter"
     },
     {
       "id": 4,
-      "image": "https://harryle.com/src/img/5-nexter1.jpg",
+      "image": "https://images.squarespace-cdn.com/content/52845256e4b0ecd5a8451e07/1589390137202-8UP4M0XVEQXSHB6CEAP9/Screen%2BShot%2B2020-05-13%2Bat%2B1.12.56%2BPM.jpg?format=1000w&content-type=image%2Fjpeg",
       "name": "Post Manager",
-      "details": "Nexter is a SASS and CSS project I completed from Jonas Schemedman's Udemy Course 'fds'",
-      "tech": "HTML Material UI React Redux Ruby on Rails API",
+      "details": "A React Redux web application that helps track and view projects and files for agency social media campaigns",
+      "tech": "HTML, Material UI, React, Redux, Ruby on Rails API",
       "url": "https://tmoyni.github.io/Nexter/",
-      "github": "https://github.com/Tmoyni/Nexter"
+      "github": "https://github.com/Tmoyni/project-manager-frontend"
     },
     {
       "id": 5,
       "image": "https://harryle.com/src/img/5-nexter1.jpg",
       "name": "Fantasy Stocks",
       "details": "Nexter is a SASS and CSS project I completed from Jonas Schemedman's Udemy Course 'fds'",
-      "tech": "Ruby on Rails HTML CSS",
+      "tech": "Ruby on Rails, HTML, CSS",
       "url": "https://tmoyni.github.io/Nexter/",
-      "github": "https://github.com/Tmoyni/Nexter"
+      "github": "https://github.com/Tmoyni/Fantasy-Stocks-1"
     }
   ],
   "contacts": [
