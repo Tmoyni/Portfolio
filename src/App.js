@@ -1,56 +1,21 @@
 import React from 'react';
 import './App.css';
-import ProjectContainer from './Containers/ProjectContainer'
+import NavBar from './Components/NavBar';
+import ProjectContainer from './Containers/ProjectContainer';
 import ContactContainer from './Containers/ContactContainer';
-import { Link, animateScroll as scroll } from "react-scroll";
 
 
 
 class App extends React.Component {
-// function App() {
-
-  scrollToTop = () => {
-    scroll.scrollToTop();
-  };
+  
 
   render() {
     return (
         <div className="App">
-          <nav className="navigation">
-            <div className="navigation__logo" onClick={this.scrollToTop}>Triona Moynihan</div>
+          
+          <NavBar />
 
-            <ul className="navigation__list">
-              <li className="navigation__list-item">
-                <Link
-                  activeClass="active"
-                  to="intro"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500} >
-                </Link>About</li>
-              <li className="navigation__list-item">
-                <Link
-                  activeClass="active"
-                  to="projects"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500} >
-                </Link>Projects</li>
-              <li className="navigation__list-item">
-                <Link
-                  activeClass="active"
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500} >
-                </Link>Contact</li>
-            </ul>
-          </nav>
-
-          <header className="intro" id="intro"> 
+          <header className="intro" name="intro"> 
             <figure className="intro__shape">
               <img src="https://images.squarespace-cdn.com/content/52845256e4b0ecd5a8451e07/1411001501633-45ZERF22Y3ZJ9N4VEGLW/Triona.jpg?format=500w&content-type=image%2Fjpeg" alt="" className="intro__image"/> 
             </figure>
@@ -62,11 +27,11 @@ class App extends React.Component {
               </div>
             </div>
           </header>
-
-          <div className="section__headline">Projects</div>
-          <ProjectContainer id="projects"/>
-          <div className="section__headline bg--green">Contact</div>
-          <ContactContainer id="contact"/>
+          
+          <section className="section__headline" name="projects">Projects</section>
+          <ProjectContainer />
+          <section className="section__headline bg--green" name="contact">Contact</section>
+          <ContactContainer />
         </div>
     );
   }
