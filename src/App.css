@@ -17,9 +17,10 @@ html {
 .App {
   font-family: 'Lato', sans-serif;
   display: grid;
-  grid-template-rows: 6rem calc(85vh - 6rem);
+  grid-template-rows: 6rem calc(90vh - 6rem);
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
-  background-color: #f8f6f6;
+  background-color: #eff7f6;
+  color: #3a506b;
 
 }
 
@@ -43,10 +44,9 @@ h1 {
 .navigation__logo {
   font-size: 2rem;
   text-transform: uppercase;
-  color: #fff;
+  color: #eff7f6;
   margin-left: 4rem;
   letter-spacing: 3px;
-  color: #fff;
   cursor: pointer;
 }
 
@@ -58,7 +58,7 @@ h1 {
   margin-right: 4rem;
   list-style: none;
   font-size: 1.5rem;
-  color: #fff;
+  color: #eff7f6;
 }
 
 .navigation__list-item {
@@ -69,13 +69,9 @@ h1 {
 }
 
 .navigation__list-item:hover {
-  color: turquoise;
+  color: #5adbff;
   cursor: pointer;
 }
-
-
-
-
 
 .intro {
   grid-column: full-start / full-end;
@@ -84,7 +80,7 @@ h1 {
   background-size: 400% 400%;
   animation: gradient 25s ease infinite;
   color: #eff7f6;
-  min-height: calc(85vh - 6rem);
+  min-height: calc(90vh - 6rem);
   padding-top: 6rem;
   align-content: center;
 
@@ -122,7 +118,6 @@ h1 {
   transform: translate(-5%, 0%);
 }
 
-
 .intro__details {
   grid-column: 3 / center-end;
   margin-left: 6rem;
@@ -152,12 +147,8 @@ h1 {
 }
 
 .intro__link:hover {
-  color: #fff ;
+  color: #eff7f6;
 }
-
-
-
-
 
 .section__headline {
   grid-column: full-start / full-end;
@@ -178,6 +169,7 @@ h1 {
 
 .project {
   border-radius: 5px;
+  padding-bottom: 1.5rem;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(192,200,200,.3);
   position: relative;
@@ -244,7 +236,7 @@ h1 {
   align-self: center;
   margin-bottom: 1rem;
 
-  background-color: #eeeeee;
+  background-color: #eff7f6;
   color: black;
   font-size: 1.2rem;
   text-align: center;
