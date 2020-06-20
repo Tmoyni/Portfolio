@@ -50,21 +50,50 @@ html {
   justify-content: end;
   margin-right: 4rem;
   list-style: none;
-  font-size: 1.5rem;
-  color: #eff7f6;
+
 }
 
 .navigation__item {
+  position: relative;
   margin: 0 1.5rem;
-
+  font-size: 1.5rem;
+  width: 100%;
+  color: #eff7f6;
+  transition: all .35s ease;
 }
-.navigation__item > .active {
-  border-bottom: 1px solid #333;
+
+
+.navigation__item::before {
+  content: "";
+  margin-top: 4px;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #5adbff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .navigation__item:hover {
-  color: #5adbff;
   cursor: pointer;
+}
+
+.navigation__item:active,
+.navigation__item:focus {
+        outline: none;
+        transform: translateY(1px);
+        box-shadow: 0 .5rem 1rem rgba(black, .2);
+}
+
+.navigation__item:hover::before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .intro {
@@ -232,7 +261,7 @@ html {
   text-transform: uppercase;
   text-align: center;
 
-  color: turquoise;
+  color: #5adbff;
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
 }
@@ -254,7 +283,7 @@ html {
 }
 
 .project__link:hover {
-  background-color: turquoise;
+  background-color: #5adbff;
 }
 
 .btn {
@@ -276,7 +305,6 @@ html {
   display: flex;
   align-items: center;
   background-color: #3a506b;
-  padding-top: 6rem;
 
   display: grid;
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
@@ -285,7 +313,6 @@ html {
 .contact__form {
   grid-column: center-start / center-end;
   color: white;
-  margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
 }
