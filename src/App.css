@@ -24,12 +24,6 @@ html {
 
 }
 
-h1 {
-  font-family: Lato;
-  font-weight: 900;
-  font-style: normal;
-}
-
 .navigation {
   position: sticky;
   top: 0px;
@@ -51,7 +45,6 @@ h1 {
 }
 
 .navigation__list {
-  font-family: Lato;
   text-transform: uppercase;
   display: flex;
   justify-content: end;
@@ -61,14 +54,15 @@ h1 {
   color: #eff7f6;
 }
 
-.navigation__list-item {
+.navigation__item {
   margin: 0 1.5rem;
+
 }
-.navigation__list-item > .active {
+.navigation__item > .active {
   border-bottom: 1px solid #333;
 }
 
-.navigation__list-item:hover {
+.navigation__item:hover {
   color: #5adbff;
   cursor: pointer;
 }
@@ -77,18 +71,16 @@ h1 {
   grid-column: full-start / full-end;
   min-height: calc(90vh - 6rem);
 
-  /* background-color: #282c34; */
   background-image: linear-gradient(-45deg, #f7b801, #ff6b6c, #9b5de5, #5adbff, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 25s ease infinite;
   color: #eff7f6;
   
-  padding-top: 6rem;
   align-content: center;
   position: relative;
 
   display: grid;
-  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 }
 
 @keyframes gradient {
@@ -103,55 +95,37 @@ h1 {
   }
 }
 
-.intro__content {
-  grid-column: center-start / center-end;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-
-  display: grid;
-  grid-template-columns: [center-start] repeat(6, [col-start] minmax(min-content, 14rem) [col-end]) [center-end];
-}
-
 .intro__shape {
   grid-column: center-start / 2;
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   overflow: hidden;
   border-radius: 50%;
 
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  place-self: center;
 }
 
 .intro__image {
-  width: 20rem;
+  width: 25rem;
   transition: all .5s;
 }
 
 .intro__image:hover {
-  width: 22rem;
-  transform: translate(-5%, 0%);
+  width: 30rem;
+  transform: translate(-7%, 0%);
 }
 
 .intro__details {
-  grid-column: 2 / center-end;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  grid-column: 3 / center-end;
+  place-self: center;
 }
 
 .intro__about {
   text-align: left;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 400;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   margin-left: 6rem;
-
 }
 
 .bld-color {
