@@ -75,14 +75,17 @@ h1 {
 
 .intro {
   grid-column: full-start / full-end;
+  min-height: calc(90vh - 6rem);
+
   /* background-color: #282c34; */
   background-image: linear-gradient(-45deg, #f7b801, #ff6b6c, #9b5de5, #5adbff, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 25s ease infinite;
   color: #eff7f6;
-  min-height: calc(90vh - 6rem);
+  
   padding-top: 6rem;
   align-content: center;
+  position: relative;
 
   display: grid;
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
@@ -100,12 +103,28 @@ h1 {
   }
 }
 
+.intro__content {
+  grid-column: center-start / center-end;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  display: grid;
+  grid-template-columns: [center-start] repeat(6, [col-start] minmax(min-content, 14rem) [col-end]) [center-end];
+}
+
 .intro__shape {
   grid-column: center-start / 2;
   width: 20rem;
   height: 20rem;
   overflow: hidden;
   border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .intro__image {
@@ -119,8 +138,11 @@ h1 {
 }
 
 .intro__details {
-  grid-column: 3 / center-end;
-  margin-left: 6rem;
+  grid-column: 2 / center-end;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .intro__about {
@@ -128,6 +150,8 @@ h1 {
   font-size: 3rem;
   font-weight: 400;
   margin-bottom: 2rem;
+  margin-left: 6rem;
+
 }
 
 .bld-color {
@@ -136,6 +160,8 @@ h1 {
 
 .intro__links {
   display: flex; 
+  margin-left: 6rem;
+
 }
 
 .intro__link {
@@ -155,6 +181,14 @@ h1 {
   text-align: center;
   font-size: 4em;
   padding-top: 3rem;
+}
+
+.section__headline--light {
+  grid-column: full-start / full-end;
+  text-align: center;
+  font-size: 4em;
+  padding-top: 3rem;
+  color: #eff7f6;
 }
 
 .projects {
@@ -307,7 +341,7 @@ h1 {
   cursor: pointer;
 }
 
-.bg--green {
+.bg--dark {
   background-color: #3a506b;
 }
 
