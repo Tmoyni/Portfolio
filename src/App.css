@@ -1,3 +1,12 @@
+/* COLOR 
+
+Primary: #5adbff 
+Gradient: #f7b801 (orange), #ff6b6c (red), #9b5de5 (purple), #5adbff (blue), #23d5ab (green)
+Dark Grey: #3a506b
+Light Grey: #eff7f6
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +30,6 @@ html {
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
   background-color: #eff7f6;
   color: #3a506b;
-
 }
 
 .navigation {
@@ -67,7 +75,6 @@ html {
   color: #eff7f6;
   transition: all .35s ease;
 }
-
 
 .navigation__item::before {
   content: "";
@@ -185,6 +192,12 @@ html {
   color: #eff7f6;
 }
 
+.intro__icon {
+  fill: #3a506b;
+  width: 2rem;
+  height: 2rem;
+}
+
 .section__headline {
   grid-column: full-start / full-end;
   text-align: center;
@@ -238,7 +251,7 @@ html {
 }
 
 .project__img:hover {
-  transform: scale(1.2)
+  transform: scale(1.2);
 }
 
 .project__name {
@@ -280,8 +293,8 @@ html {
   margin-bottom: 1rem;
 
   background-color: #eff7f6;
-  color: black;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -289,20 +302,40 @@ html {
 }
 
 .project__link:hover {
-  background-color: #5adbff;
+  background-color: #3a506b;
+  color: #eff7f6;
+  cursor: pointer;
+}
+
+.project__link:active,
+.project__link:focus {
+  transform: translateY(1px);
 }
 
 .btn {
   border: none;
   border-radius: 5px;
   height: 3rem;
-  width: 70%;
+  width: 50%;
   margin-bottom: 2rem;
   align-self: center;
+  background-color: #eff7f6;
+
+  
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 3rem; 
 }
 
 .btn:hover {
-  background-color: turquoise;
+  background-color: #5adbff;
+}
+
+.btn:active,
+.btn:focus {
+  transform: translateY(1px);
 }
 
 .contact {
