@@ -21,14 +21,14 @@ class App extends React.Component {
             <div className="navigation__logo" onClick={this.scrollToTop}>Triona Moynihan</div>
 
             <ul className="navigation__list">
-              <li className="navigation__list-item" onClick={() => scrollToComponent(this.Intro, { offset: -50, align: 'top', duration: 1200})}>About</li>
-              <li className="navigation__list-item" onClick={() => scrollToComponent(this.Projects, { offset: -50, align: 'top', duration: 1200})}>Projects</li>
-              <li className="navigation__list-item" onClick={() => scrollToComponent(this.Contact, { offset: -50, align: 'top', duration: 1200})}>Contact</li>
+              <li className="navigation__item" onClick={() => scrollToComponent(this.Intro, { offset: -50, align: 'top', duration: 1200})}>About</li>
+              <li className="navigation__item" onClick={() => scrollToComponent(this.Projects, { offset: -50, align: 'top', duration: 1200})}>Projects</li>
+              <li className="navigation__item" onClick={() => scrollToComponent(this.Contact, { offset: -50, align: 'top', duration: 1200})}>Contact</li>
             </ul>
           </nav>
 
           <header className="intro" name="intro" ref={(section) => { this.Intro = section; }}> 
-            <div className="intro__content">
+            {/* <div className="intro__content"> */}
               <figure className="intro__shape">
                 <img src="https://images.squarespace-cdn.com/content/52845256e4b0ecd5a8451e07/1411001501633-45ZERF22Y3ZJ9N4VEGLW/Triona.jpg?format=500w&content-type=image%2Fjpeg" alt="" className="intro__image"/> 
               </figure>
@@ -39,7 +39,7 @@ class App extends React.Component {
                   <a className="intro__link" href="https://www.linkedin.com/in/trionamoynihan/" target="_blank" >LinkedIn</a>
                 </div>
               </div>
-            </div>
+            {/* </div> */}
           </header>
           
           <section className="section__headline" name="projects" ref={(section) => { this.Projects = section; }}>Projects</section>
