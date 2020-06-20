@@ -44,6 +44,12 @@ html {
   cursor: pointer;
 }
 
+.navigation__logo:active,
+.navigation__logo:focus {
+  transform: translateY(1px);
+  box-shadow: 0 .5rem 1rem rgba(black, .2);
+}
+
 .navigation__list {
   text-transform: uppercase;
   display: flex;
@@ -85,9 +91,9 @@ html {
 
 .navigation__item:active,
 .navigation__item:focus {
-        outline: none;
-        transform: translateY(1px);
-        box-shadow: 0 .5rem 1rem rgba(black, .2);
+  outline: none;
+  transform: translateY(1px);
+  box-shadow: 0 .5rem 1rem rgba(black, .2);
 }
 
 .navigation__item:hover::before {
