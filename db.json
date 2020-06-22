@@ -4,7 +4,7 @@
       "id": 1,
       "image": "https://harryle.com/src/img/8-natours1.jpg",
       "name": "Natours",
-      "details": "Natours is a SASS and CSS project I completed from Jonas Schemedman's Udemy Course 'fds'",
+      "details": "Natours is a website for a nature tourism company built with HTML and CSS. It was the first project from Jonas Schmedtmann's Udemy Course 'Advanced CSS and Sass'. It was a great way to learn how to built out a project utilizing SASS and advanced CSS techniques like animations and pure CSS popups.",
       "tech": "HTML CSS SASS",
       "url": "https://tmoyni.github.io/Natours/",
       "github": "https://github.com/Tmoyni/Natours"
@@ -13,7 +13,7 @@
       "id": 2,
       "image": "https://harryle.com/src/img/4-trillo1.jpg",
       "name": "Trillo",
-      "details": "Trillo is a SASS and CSS project I completed from Jonas Schemedman's Udemy Course 'fds'.",
+      "details": "Trillo is a travel site and the second project from Jonas Schmedtmann's Udemy Course 'Advanced CSS and Sass.' This project delved into the finer points of Flexbox and worked on more even advanced CSS techniques.It also covered topics like responsive design and how to manage media queries in CSS.",
       "tech": "HTML CSS SASS Flexbox",
       "url": "https://tmoyni.github.io/Trillo/",
       "github": "https://github.com/Tmoyni/Trillo"
@@ -22,7 +22,7 @@
       "id": 3,
       "image": "https://harryle.com/src/img/5-nexter1.jpg",
       "name": "Nexter",
-      "details": "Nexter is a SASS and CSS project I completed from Jonas Schemedman's Udemy Course 'fds'",
+      "details": "Nexter is real estate website and the third and final project from Jonas Schmedtmann's Udemy Course 'Advanced CSS and Sass.' This site is built with a custom CSS grid",
       "tech": "HTML, CSS, SASS, Flexbox, CSS Grid",
       "url": "https://tmoyni.github.io/Nexter/",
       "github": "https://github.com/Tmoyni/Nexter"
