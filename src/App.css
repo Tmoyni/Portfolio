@@ -181,24 +181,25 @@ html {
 .intro__link {
   font-size: 1.75rem;
   font-weight: 400;
-  margin-right: 1.5rem;
+  margin-right: 2rem;
   color: #3a506b;
+  fill:  #3a506b;
   text-decoration: none;
-  place-self: center;
-
 }
 
 .intro__link:hover {
   color: #eff7f6;
+  fill: #eff7f6
 }
 
 .intro__icon {
-  /* fill: #3a506b; */
-  /* width: 2rem;
-  height: 2rem; */
-  place-self: center;
   margin-right: .5rem;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  top: 3px;
 }
+
 
 
 .section__headline {
