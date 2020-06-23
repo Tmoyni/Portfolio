@@ -4,6 +4,8 @@ import ProjectContainer from './Containers/ProjectContainer';
 import ContactContainer from './Containers/ContactContainer';
 import scrollToComponent from 'react-scroll-to-component';
 import { animateScroll as scroll } from "react-scroll";
+import Github from './Icons/Github';
+
 
 
 class App extends React.Component {
@@ -35,14 +37,13 @@ class App extends React.Component {
                 <div className="intro__about">Hi, I'm <span className="bld-color">Triona Moynihan</span> and I am a New York City based full-stack web developer and designer.</div>
                 <div className="intro__links">
                   <a className="intro__link" href="https://github.com/Tmoyni" target="_blank" >
-                    {/* <div className="intro__icon">
-                      <svg>
-                        <use xlinkHref="/img/linkedin.svg" />
-                      </svg>
-                    </div> */}
+                    <Github />
                     Github
                   </a>
-                  <a className="intro__link" href="https://www.linkedin.com/in/trionamoynihan/" target="_blank" >LinkedIn</a>
+                  <a className="intro__link" href="https://www.linkedin.com/in/trionamoynihan/" target="_blank" >
+                    <img className="intro__icon" src="/img/linkedin.svg" alt="Linkedin logo"></img>
+                    LinkedIn
+                  </a>
                 </div>
               </div>
           </header>

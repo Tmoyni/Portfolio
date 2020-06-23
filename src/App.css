@@ -64,7 +64,6 @@ html {
   justify-content: end;
   margin-right: 4rem;
   list-style: none;
-
 }
 
 .navigation__item {
@@ -177,7 +176,6 @@ html {
 .intro__links {
   display: flex; 
   margin-left: 6rem;
-
 }
 
 .intro__link {
@@ -186,6 +184,8 @@ html {
   margin-right: 1.5rem;
   color: #3a506b;
   text-decoration: none;
+  place-self: center;
+
 }
 
 .intro__link:hover {
@@ -193,10 +193,13 @@ html {
 }
 
 .intro__icon {
-  fill: #3a506b;
-  width: 2rem;
-  height: 2rem;
+  /* fill: #3a506b; */
+  /* width: 2rem;
+  height: 2rem; */
+  place-self: center;
+  margin-right: .5rem;
 }
+
 
 .section__headline {
   grid-column: full-start / full-end;
@@ -380,6 +383,7 @@ html {
   align-self: center;
   margin-top: 1rem;
   cursor: pointer;
+  color: #3a506b;
 }
 
 .bg--dark {
