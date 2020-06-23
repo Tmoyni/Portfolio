@@ -292,6 +292,7 @@ html {
   align-self: center;
   margin-bottom: 1rem;
 
+  color: #3a506b;
   background-color: #eff7f6;
   font-size: 1.1rem;
   font-weight: bold;
@@ -321,7 +322,6 @@ html {
   align-self: center;
   background-color: #eff7f6;
 
-  
   font-size: 1.1rem;
   font-weight: bold;
   text-transform: uppercase;
