@@ -22,7 +22,7 @@
       "id": 3,
       "image": "https://harryle.com/src/img/5-nexter1.jpg",
       "name": "Nexter",
-      "details": "Nexter is real estate website and the third and final project from Jonas Schmedtmann's Udemy Course 'Advanced CSS and Sass.' This site is built with a custom CSS grid",
+      "details": "Nexter is real estate website and the third and final project from Jonas Schmedtmann's Udemy Course 'Advanced CSS and Sass.' This site utilizes a custom CSS grid.",
       "tech": "HTML, CSS, SASS, Flexbox, CSS Grid",
       "url": "https://tmoyni.github.io/Nexter/",
       "github": "https://github.com/Tmoyni/Nexter"
@@ -31,8 +31,8 @@
       "id": 4,
       "image": "https://images.squarespace-cdn.com/content/52845256e4b0ecd5a8451e07/1589390137202-8UP4M0XVEQXSHB6CEAP9/Screen%2BShot%2B2020-05-13%2Bat%2B1.12.56%2BPM.jpg?format=1000w&content-type=image%2Fjpeg",
       "name": "Post Manager",
-      "details": "A React Redux web application that helps track and view projects and files for agency social media campaigns",
-      "tech": "HTML, Material UI, React, Redux, Ruby on Rails API",
+      "details": "A React Redux web application that helps track and view projects and files for agency social media campaigns. Utilizes a custom database schema and REST API with ActiveRecord, Ruby on Rails and Postgres. Integrated Dropbox SDK for image file management. Utilized React, Redux, and Material UI for the frontend User Interface",
+      "tech": "HTML, Material UI, React, Redux, Ruby on Rails API, Dropbox SDK",
       "url": "https://youtu.be/GnKPbq-a3-Q",
       "github": "https://github.com/Tmoyni/project-manager-frontend"
     },
@@ -40,8 +40,8 @@
       "id": 5,
       "image": "https://harryle.com/src/img/5-nexter1.jpg",
       "name": "Fantasy Stocks",
-      "details": "Ruby on Rails multi-page application to buy and sell portfolios of stocks with fake money. Developed a Ruby on Rails backend RESTful API with ActiveRecord and Sqlite3. Implemented Bootstrap for the frontend User Interface. Calculated percent change for stocks and the amount you can sell and buy on the backend",
-      "tech": "Ruby on Rails, HTML, CSS",
+      "details": "A Ruby on Rails multi-page application for buying and selling portfolios of stocks with fake money. Utilizes a Ruby on Rails backend RESTful API with ActiveRecord and Sqlite3. Implemented Bootstrap for the frontend User Interface implements.",
+      "tech": "Ruby on Rails, HTML, CSS, Bootstrap, SQLite3",
       "url": "https://www.youtube.com/watch?v=iEuzsy7q1Vo",
       "github": "https://github.com/Tmoyni/Fantasy-Stocks-1"
     }
