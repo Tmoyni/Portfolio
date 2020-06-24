@@ -23,6 +23,13 @@ html {
   font-size: 62.5%; 
 }
 
+@media only screen and (max-width: 620px) {
+  html {
+    font-size: 50%; 
+  }
+}
+
+
 .App {
   font-family: 'Lato', sans-serif;
   display: grid;
@@ -34,7 +41,7 @@ html {
 
 @media only screen and (max-width: 800px) {
   .App {
-    grid-template-rows: 6rem;
+    grid-template-rows: 8rem;
   }
 }
 
@@ -50,6 +57,12 @@ html {
   background-color: #3a506b;
 }
 
+@media only screen and (max-width: 420px) {
+  .navigation {
+    flex-direction: column; 
+  }
+}
+
 .navigation__logo {
   font-size: 2rem;
   text-transform: uppercase;
@@ -57,6 +70,13 @@ html {
   margin-left: 4rem;
   letter-spacing: 3px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+  .navigation__logo {
+    margin-left: 0;
+    margin-top: 1rem; 
+  }
 }
 
 .navigation__logo:active,
@@ -71,6 +91,13 @@ html {
   justify-content: end;
   margin-right: 4rem;
   list-style: none;
+}
+
+@media only screen and (max-width: 420px) {
+  .navigation__list {
+    margin-right: 0;
+    margin-bottom: 1rem; 
+  }
 }
 
 .navigation__item {
