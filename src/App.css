@@ -32,6 +32,13 @@ html {
   color: #3a506b;
 }
 
+@media only screen and (max-width: 800px) {
+  .App {
+    grid-template-rows: 6rem;
+  }
+}
+
+
 .navigation {
   position: sticky;
   top: 0px;
@@ -124,6 +131,15 @@ html {
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 }
 
+@media only screen and (max-width: 800px) {
+  .intro {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+  }
+}
+
 @keyframes gradient {
   0% {
       background-position: 0% 50%;
@@ -146,9 +162,26 @@ html {
   place-self: center;
 }
 
+@media only screen and (max-width: 800px) {
+  .intro__shape {
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 50%;
+  
+    place-self: center;
+  }
+}
+
 .intro__image {
   width: 25rem;
   transition: all .5s;
+}
+
+@media only screen and (max-width: 800px) {
+  .intro__image {
+    width: 20rem;
+  }
 }
 
 .intro__image:hover {
@@ -156,9 +189,26 @@ html {
   transform: translate(-7%, 0%);
 }
 
+@media only screen and (max-width: 800px) {
+  .intro__image:hover {
+    width: 24rem;
+    transform: translate(-6%, 0%);  
+  }
+}
+
 .intro__details {
   grid-column: 3 / center-end;
   place-self: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .intro__details {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .intro__about {
@@ -169,6 +219,13 @@ html {
   margin-left: 6rem;
 }
 
+@media only screen and (max-width: 800px) {
+  .intro__about {
+    text-align: center;
+    margin-left: 0rem;
+  }
+}
+
 .bld-color {
   color: #3a506b
 }
@@ -176,6 +233,13 @@ html {
 .intro__links {
   display: flex; 
   margin-left: 6rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .intro__links {
+    margin-left: 0rem;
+    align-self: center;
+  }
 }
 
 .intro__link {
@@ -352,12 +416,20 @@ html {
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 }
 
+@media only screen and (max-width: 800px) {
+  .contact {
+    min-height: auto;
+    padding: 6rem 0;
+  }
+}
+
 .contact__form {
   grid-column: center-start / center-end;
   color: white;
   display: flex;
   flex-direction: column;
 }
+
 
 .contact__label {
   font-size: 1.2rem;
