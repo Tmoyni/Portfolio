@@ -8,7 +8,8 @@ class ProjectContainer extends React.Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:3000/projects')
+        // fetch('http://localhost:3000/api/v1/projects')
+        fetch('https://moynihan-portfolio-api.herokuapp.com/api/v1/projects')
           .then(res => res.json())
           .then(data => this.setState ({
               projects: data
