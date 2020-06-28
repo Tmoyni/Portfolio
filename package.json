@@ -6,7 +6,10 @@
     "serve": "^10.0.1"
   },
   "scripts": {
-    "start": "serve"
+    "start": "serve",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "Triona Moynihan",
   "license": "ISC",
