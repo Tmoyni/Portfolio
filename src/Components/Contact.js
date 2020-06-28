@@ -18,14 +18,16 @@ class Contact extends React.Component {
     handleSubmit(e){
         e.preventDefault()
         console.log("submitting", this.state )
-            fetch('http://localhost:3000/contacts', {
+            // fetch('http://localhost:3000/api/v1/contacts', {
+            fetch('https://moynihan-portfolio-api.herokuapp.com/api/v1/contacts', {
+
               method: 'POST', 
               headers: {
                 'Content-Type': 'application/json',
               },
               body: JSON.stringify({
-                firstName: this.state.firstName,
-                lastName: this.state.lastName,
+                first_name: this.state.firstName,
+                last_name: this.state.lastName,
                 email: this.state.email,
                 message: this.state.message,
               }),

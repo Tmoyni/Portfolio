@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "Triona Moynihan Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,12 +17,12 @@
     "websocket-extensions": "^0.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "author": "Triona",
+  "author": "Triona Moynihan",
   "license": "ISC",
   "eslintConfig": {
     "extends": "react-app"
@@ -42,5 +42,8 @@
   "devDependencies": {
     "lato-font": "^3.0.0",
     "url-loader": "^4.1.0"
+  },
+  "dependencies": {
+    "serve": "^10.0.1"
   }
 }
