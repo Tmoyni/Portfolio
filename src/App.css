@@ -25,7 +25,7 @@ html {
 
 @media only screen and (max-width: 620px) {
   html {
-    font-size: 50%; 
+    font-size: 55%; 
   }
 }
 
@@ -42,6 +42,8 @@ html {
 @media only screen and (max-width: 800px) {
   .App {
     grid-template-rows: 8rem;
+    grid-template-columns: [full-start] minmax(2rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(2rem, 1fr) [full-end];
+
   }
 }
 
@@ -74,6 +76,7 @@ html {
 
 @media only screen and (max-width: 420px) {
   .navigation__logo {
+    font-size: 2.2rem;
     margin-left: 0;
     margin-top: 1rem; 
   }
@@ -96,7 +99,7 @@ html {
 @media only screen and (max-width: 420px) {
   .navigation__list {
     margin-right: 0;
-    margin-bottom: 1rem; 
+    margin-bottom: 1.2rem; 
   }
 }
 
@@ -387,7 +390,7 @@ html {
   margin-bottom: 1rem;
 
   color: #3a506b;
-  background-color: #eff7f6;
+  background-color: #EBEDF0;
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
