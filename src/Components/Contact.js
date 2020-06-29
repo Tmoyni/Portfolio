@@ -45,7 +45,6 @@ class Contact extends React.Component {
     }
     
     render() {
-        console.log(this.state)
         return (
                 <form className="contact__form" onSubmit={(e) => this.handleSubmit(e)}>
                     <label className="contact__label" htmlFor="firstName">First Name:</label>

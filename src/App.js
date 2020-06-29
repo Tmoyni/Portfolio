@@ -36,7 +36,7 @@ class App extends React.Component {
                 <img src="https://images.squarespace-cdn.com/content/52845256e4b0ecd5a8451e07/1411001501633-45ZERF22Y3ZJ9N4VEGLW/Triona.jpg?format=500w&content-type=image%2Fjpeg" alt="" className="intro__image"/> 
               </figure>
               <div className="intro__details">
-                <div className="intro__about">Hi, I'm <span className="bld-color">Triona Moynihan</span> and I am a New York City based full-stack web developer and designer.</div>
+                <div className="intro__about">Hi, I'm <span className="bld-color">Triona Moynihan</span> and I am a New York City based full-stack developer and designer.</div>
                 <div className="intro__links">
                   <a className="intro__link" href="https://github.com/Tmoyni" target="_blank" ><Github />Github</a>
                   <a className="intro__link" href="https://www.linkedin.com/in/trionamoynihan/" target="_blank" ><LinkedIn/>LinkedIn</a>
