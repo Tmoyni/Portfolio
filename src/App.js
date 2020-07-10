@@ -6,12 +6,9 @@ import scrollToComponent from 'react-scroll-to-component';
 import { animateScroll as scroll } from "react-scroll";
 import Github from './Icons/Github';
 import LinkedIn from './Icons/LinkedIn';
-
-
-
+import Triona from './Images/Triona.jpg'
 
 class App extends React.Component {
-
 
   scrollToTop = () => {
     scroll.scrollToTop();
@@ -32,14 +29,16 @@ class App extends React.Component {
           </nav>
 
           <header className="intro" name="intro" ref={(section) => { this.Intro = section; }}> 
-              <figure className="intro__shape">
+              <figure className="intro__shape"> 
+                <img src={Triona} alt="" className="intro__image"/> 
+
                 <img src="https://images.squarespace-cdn.com/content/52845256e4b0ecd5a8451e07/1411001501633-45ZERF22Y3ZJ9N4VEGLW/Triona.jpg?format=500w&content-type=image%2Fjpeg" alt="" className="intro__image"/> 
               </figure>
               <div className="intro__details">
                 <div className="intro__about">Hi, I'm <span className="bld-color">Triona Moynihan</span> and I am a New York City based full-stack developer and designer.</div>
                 <div className="intro__links">
-                  <a className="intro__link" href="https://github.com/Tmoyni" target="_blank" ><Github />Github</a>
-                  <a className="intro__link" href="https://www.linkedin.com/in/trionamoynihan/" target="_blank" ><LinkedIn/>LinkedIn</a>
+                  <a className="intro__link" href="https://github.com/Tmoyni"><Github />Github</a>
+                  <a className="intro__link" href="https://www.linkedin.com/in/trionamoynihan/" ><LinkedIn/>LinkedIn</a>
                 </div>
               </div>
           </header>
