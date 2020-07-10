@@ -407,17 +407,17 @@ html {
 
 .project__links {
   display: flex; 
-  align-self: center;
+  flex-direction: row;
+  margin: 0 1rem;
 }
 
 .project__link {
   margin: 0 .5rem;
   height: 3.4rem;
-  min-width: 15rem;
+  flex-grow: 1;
   border-radius: 5px;
   border: 1px solid;
   border-color:  lightgray;
-  align-self: center;
   margin-bottom: 1rem;
 
   color: #3a506b;
