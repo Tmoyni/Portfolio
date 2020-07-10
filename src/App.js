@@ -29,18 +29,16 @@ class App extends React.Component {
           </nav>
 
           <header className="intro" name="intro" ref={(section) => { this.Intro = section; }}> 
-              <figure className="intro__shape"> 
-                <img src={Triona} alt="" className="intro__image"/> 
-
-                <img src="https://images.squarespace-cdn.com/content/52845256e4b0ecd5a8451e07/1411001501633-45ZERF22Y3ZJ9N4VEGLW/Triona.jpg?format=500w&content-type=image%2Fjpeg" alt="" className="intro__image"/> 
-              </figure>
-              <div className="intro__details">
-                <div className="intro__about">Hi, I'm <span className="bld-color">Triona Moynihan</span> and I am a New York City based full-stack developer and designer.</div>
-                <div className="intro__links">
-                  <a className="intro__link" href="https://github.com/Tmoyni"><Github />Github</a>
-                  <a className="intro__link" href="https://www.linkedin.com/in/trionamoynihan/" ><LinkedIn/>LinkedIn</a>
-                </div>
+            <figure className="intro__shape"> 
+              <img src={Triona} alt="" className="intro__image"/> 
+            </figure>
+            <div className="intro__details">
+              <div className="intro__about">Hi, I'm <span className="bld-color">Triona Moynihan</span> and I am a New York City based full-stack developer with design experience.</div>
+              <div className="intro__links">
+                <a className="intro__link" href="https://github.com/Tmoyni" target="_blank" rel="noopener noreferrer"><Github />Github</a>
+                <a className="intro__link" href="https://www.linkedin.com/in/trionamoynihan/" target="_blank" rel="noopener noreferrer"><LinkedIn/>LinkedIn</a>
               </div>
+            </div>
           </header>
           
           <section className="section__headline" name="projects" ref={(section) => { this.Projects = section; }}>Projects</section>
