@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It features custom CSS UI elements and utilizes a Ruby in Rails backend.
 
 ## Available Scripts
 
