@@ -1,12 +1,13 @@
 import React from 'react';
-import Natours from '../Images/Natours.jpg';
-import Trillo from '../Images/Trillo.jpg';
-import FantasyStocks from '../Images/FantasyStocks.png';
-import Nexter from '../Images/Nexter.jpg';
-import Portfolio from '../Images/Portfolio.jpg';
-import PostManager from '../Images/PostManager.jpg';
+// import Natours from '../Images/Natours.jpg';
+// import Trillo from '../Images/Trillo.jpg';
+// import FantasyStocks from '../Images/FantasyStocks.png';
+// import Nexter from '../Images/Nexter.jpg';
+// import Portfolio from '../Images/Portfolio.jpg';
+// import PostManager from '../Images/PostManager.jpg';
 
 class Project extends React.Component {
+    
 
     render() {
         return (
