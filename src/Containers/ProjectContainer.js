@@ -1,5 +1,7 @@
 import React from 'react';
-import Project from '../Components/Project'
+import Project from '../Components/Project';
+import { projectData } from "../Projects/projectData";
+
 
 class ProjectContainer extends React.Component {
 
@@ -18,8 +20,8 @@ class ProjectContainer extends React.Component {
     render() {
         return (
             <div className="projects">  
-                {this.state.projects.map( project => (
-                    <Project key={project.id} project={project}/>
+                {projectData.map( (project, index) => (
+                    <Project key={index} project={project}/>
                 ))}
             </div>
         );
