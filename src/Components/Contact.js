@@ -65,35 +65,6 @@ class Contact extends React.Component {
       this.setState({ formErrors, [name]: value });
   }
 
-  // handleSubmit(e) {
-  //   e.preventDefault()
-  //   this.fetchContact()
-  // }
-
-  // fetchContact() {
-  //   fetch('https://moynihan-portfolio-api.herokuapp.com/api/v1/contacts', {
-  //     method: 'POST', 
-  //     headers: {
-  //       'Content-Type': 'application/json',
-  //     },
-  //     body: JSON.stringify({
-  //       first_name: this.state.firstName,
-  //       last_name: this.state.lastName,
-  //       email: this.state.email,
-  //       message: this.state.message,
-  //     }),
-  //   })
-  //   .then((response) => response.json())
-  //   .then((data) => {
-  //     console.log('Success:', data);
-  //   })
-  //   .then(this.clearState())
-  // }
-
-  // handleSubmit(e) {
-  //   e.preventDefault()
-  //   this.fetchContact()
-  // }
   
   handleSubmit = (e) => {
     e.preventDefault();
@@ -143,10 +114,6 @@ class Contact extends React.Component {
   }
     
   render() {
-    //const { formErrors } = this.state;
-    //console.log('updating', process.env.EMAILJS_USERID)
-    console.log('process.env', process.env)
-
 
     return (
       <form className="contact__form" onSubmit={(e) => this.handleSubmit(e)}>
