@@ -7,7 +7,7 @@ class NavBar extends React.Component {
 
     scrollToTop = () => {
         scroll.scrollToTop();
-      };
+    };
     
 
     render() {
