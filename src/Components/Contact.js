@@ -64,6 +64,7 @@ class Contact extends React.Component {
     }
       this.setState({ formErrors, [name]: value });
   }
+
   
   handleSubmit = (e) => {
     e.preventDefault();
