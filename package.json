@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "emailjs-com": "^2.6.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lato-font": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
